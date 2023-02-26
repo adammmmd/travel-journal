@@ -8,7 +8,7 @@ export default function Card(props) {
                 <div className="location-card">
                     <img src="./assets/download (1).png" />
                     <p>{props.country}</p>
-                    <a href="{props.location}">View on Google Maps</a>
+                    <a href={props.location} target="_blank">View on Google Maps</a>
                 </div>
                 <h1>{props.place}</h1>
                 <h2>{props.date}</h2>
